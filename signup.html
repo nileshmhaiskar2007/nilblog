@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Personal Blog</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/bootstrap.css"><!--href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"-->
+		<link rel="stylesheet" href="css/style1.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" id="header">	
+				<div class="col-lg-9">
+					<span class="menu"><a href="index.html">&trade;Home</a></span>
+					<span class="menu"><a href="#">&forall;Article</a></span>
+					<span class="menu"><a href="#">&forall;Poems</a></span>
+					<span class="menu"><a href="#">&forall;Pics</a></span>
+					<span class="menu"><a href="members.html">&reg;Members</a></span>
+					<span class="menu"><a href="#">&copy;ContactUs</a></span>
+				</div>
+				<div class="col-lg-3">
+					<form><input type="text" name="search" placeholder="Search"></form>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<form method="post" action="#">
+						<fieldset>
+							<legend>Members Area</legend>
+							Username:<input type="text" name="userid" placeholder="Enter Username" /><br />
+							Password:<input type="password" name="pass" placeholder="Enter Password" /><br />
+							Same Password:<input type="password" name="pass1" placeholder="Enter Password" /><br />
+							<input type="radio" name="gender" value="Male" checked="checked" />Male
+							<input type="radio" name="gender" value="Female" />Female
+							<input type="radio" name="gender" value="Other" />Other<br />
+							<input type="number" name="age" placeholder="Age" /><br />
+							Date of Birth:<input type="date" name="dob"><br />
+							<select name="states">
+								<option value="MH">Maharashtra</option>
+								<option value="BH">Bihar</option>
+								<option value="OR">Orissa</option>
+								<option value="PB">Punjab</option>
+							</select><br />
+							<input type="checkbox" name="member1" value="writer">Writer<br />
+							<input type="checkbox" name="member2" value="poet">Poet<br />
+							<input type="checkbox" name="member3" value="photo">Photographer<br />
+							<input type="submit" value="submit">
+						</fieldset>
+					</form>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/cafe960_720.jpg" alt="cafe" />
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
